@@ -1,0 +1,25 @@
+[project]
+authors = [{name = "Amrei", email = "88709270+amrei-bp@users.noreply.github.com"}]
+dependencies = []
+description = "Add a short description here"
+name = "pixi-py"
+requires-python = ">= 3.11"
+version = "0.1.0"
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[tool.pixi.project]
+channels = ["conda-forge"]
+platforms = ["osx-64"]
+
+[tool.pixi.pypi-dependencies]
+pixi_py = { path = ".", editable = true }
+
+[tool.pixi.tasks]
+serve = "mkdocs serve"
+build = "mkdocs build"
+
+[tool.pixi.dependencies]
+mkdocs-material = ">=9.7.1,<10"
