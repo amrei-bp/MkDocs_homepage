@@ -1,0 +1,97 @@
+site_name: SLU Bioinformatics Infrastructure
+site_url: https://slubi.se/
+
+repo_url: https://github.com/amrei-bp/MkDocs_homepage
+repo_name: amrei-bp/MkDocs_homepage
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - scheme: default
+      primary: green. # could be specified in extra.css
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Dark mode
+    - scheme: slate
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  logo: images/SLUBI_logo.png
+  favicon: images/SLUBI_logo.png
+
+  features:
+    # Navigation behavior
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+
+    # Scroll-related UX
+    - navigation.tracking     # active anchor updates URL as you scroll :contentReference[oaicite:4]{index=4}
+    - toc.follow              # keeps active heading visible in TOC :contentReference[oaicite:5]{index=5}
+    - navigation.top          # back-to-top button :contentReference[oaicite:6]{index=6}
+
+    # Nice-to-have
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.action.view
+
+plugins:
+  - search
+  - blog:
+      blog_dir: archive
+      post_dir: archive/posts
+      archive: true
+      categories: true
+  - tags
+
+markdown_extensions:
+  # Required for Material grids/cards used on your homepage and team page :contentReference[oaicite:7]{index=7}
+  - attr_list
+  - md_in_html
+
+  # Common useful extensions
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/scroll-in.js
+
+nav:
+  - Home: index.md
+  - Services:
+      - Support: support_what.md
+      - Drop-in: dropin.md
+  - Training:
+      - Courses: archive/category/courses.md
+      - Seminars and Workshops: archive/category/workshops.md
+      - Self learning: learning-resources.md
+      - Tools and resources: online-resources.md
+      - How to Dardel: dardel.md
+      - How to HPC2N: hpc2n.md
+  - Events:
+      - Events: archive/category/events.md
+      - Fika: social.md
+  - About us:
+      - SLUBI: slubi.md
+      - Contact: contact.md
+      - Board: board.md
+      - Publications: publications.md
+      - Theses: theses.md
+  - Archive:
+      - News and Events: archive/index.md
+      - Tags: tags.md

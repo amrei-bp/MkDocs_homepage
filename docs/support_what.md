@@ -1,0 +1,31 @@
+
+# Support
+
+# Consultation
+Our support services are tailored to meet your specific needs. We provide **free consultation** during the initial planning stages of your project or for addressing specific inquiries regarding best practices or optimal tools. Feel free to [contact us](contact.md) for assistance or visit us in one of our our [drop-in](dropin.md) sessions.
+
+# Project support
+We also offer more intensive **project support** for SEK800 per hour. This support is highly individual and depends on your needs. We can run all bioinformatic analyses for you, or be a sounding board for you or your students in the progress of your project. 
+
+If you require dedicated bioinformatics expertise for your project, you have the option to **hire a bioinformatician** for a specified duration.
+
+# Education and training
+We offer a range of PhD and MSc **courses** on a multitude of bioinformatics topics. Check our list of [past and present courses](archive/category/courses.md) to see if something fits your interest. Most of these courses are on a recurring schedule. 
+
+Additionally, we organize **seminars and workshops**, shorter hands-on sessions on a selected range of topics. Notably, we have a recuring workshop session in collaboration with SLU's Center for Statistics, the [Basic Biostatistics & Bioinformatics](3BS.md) Series. Here we explain basic statistics concepts, or introduce useful tools and techniques.
+
+ We also accommodate workshop requests based on demand. If there's a specific topic you're interested in or if you're organizing a course and require bioinformatics instructors, please [contact](contact.md) us.
+
+# Access to our services
+
+We maintain an open application process, accepting projects on a rolling basis. To express your interest, simply [contact us](contact.md). We will then arrange an introductory meeting with one of our experts. 
+
+Once the project scope and requirements are agreed upon, a contract will be drafted, signed by the project's principal investigator, and submitted to SLUBI to initiate support.
+
+Throughout the support period, you'll have direct communication with your designated expert via email and/or meetings as needed. Our coordinator will also be on hand to provide additional support if required.
+
+<br>
+<center>
+![](images/SLUBI_logo.png){#id .class width=15%}
+</center>
+ 

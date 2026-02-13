@@ -1,0 +1,48 @@
+---
+title: "Basic Biostatistics & Bioinformatics"
+description: |
+  practical concepts and coding for everyone
+listing:
+  contents: newsposts/3_bees
+  id: 3bs
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  grid-columns: 2
+  fields: 
+    - title
+    - subtitle
+    - description
+    - author
+    - date
+    - categories
+
+---
+
+::: {layout-ncol=2}
+<br>
+SLUBI and the SLU Centre for Statistics are bringing you a workshop series focused on R and applications in bioinformatics.\
+<b>Mondays in even weeks, 09:45 </b>\
+<b>Campus Alnarp or Ultuna </b>\
+<b>and always via [Zoom](https://slu-se.zoom.us/j/69486568642) (Password: 410 410) </b>
+
+![](images/3bees_opaque.png){.class width=80%}
+:::
+
+We are running a topic-driven discussion series where Adam Flöhr from the Centre for Statistics discusses the statistical magic behind some of the common methods we use, and bioinformaticians from SLUBI use data to show a hands-on example of how to execute the analyses. \
+
+All data and codes of past sessions is available at our [github page](https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series).
+
+<br>
+
+
+# Program 
+::: {#3bs}
+:::
+
+<br>
+We want to serve the SLU bioinformatics communities, so the floor to topic suggestions is open: 
+
+Please fill out [this questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSfojHf02MqnsVTgKK_tE403ogGI1Pfi9vLg1A407w4SrQbIIw/viewform) to decide what you would like to hear (more) about. 
